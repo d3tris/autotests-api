@@ -3,7 +3,7 @@ import websockets
 
 
 async def client():
-    url = "ws://localhost:8765"
+    uri = "ws://localhost:8765"
     async with websockets.connect(url) as websocket:
         message = "Hello, server!"
         print(f"Sending: {message}")
