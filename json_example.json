@@ -1,0 +1,21 @@
+{
+  "key": "value",
+  "name": "Adele",
+  "age": 30,
+  "is_student": false,
+  "courses": [
+    "Python",
+    "QA Automation",
+    "API Testing",
+    {
+      "name": "Ariel"
+    }
+  ],
+  "address": {
+    "city": "Boston",
+    "zip": "010101",
+    "point": {
+      "name": "Alise"
+    }
+  }
+}
