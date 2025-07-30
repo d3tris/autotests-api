@@ -1,5 +1,4 @@
 import socket
-from idlelib.squeezer import count_lines_with_wrapping
 
 
 def server():
