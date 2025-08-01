@@ -8,14 +8,14 @@ def server():
     server_socket.bind(server_address)
 
     server_socket.listen(10)
-    print("Сервер запущен и ожидает подключений...")
+    print("Server running and waiting for connections...")
     messages: list[str] = []
     while True:
         client_socket, client_address = server_socket.accept()
-        print(f"Пользователь с адресом: {client_address} подключился к серверу")
+        print(f"User with address: {client_address} connected to server")
 
         message = client_socket.recv(1024).decode()
-        print(f"Пользователь с адресом: {client_address} отправил сообщение: {message}")
+        print(f"User with address: {client_address} sent message: {message}")
         messages.append(message)
 
         client_socket.send('\n'.join(messages).encode())

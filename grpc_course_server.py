@@ -9,8 +9,8 @@ class CourseServiceServicer(course_service_pb2_grpc.CourseServiceServicer):
         print(f'A request was received for the GetCourse method from a course: {request.course_id}')
         return course_service_pb2.GetCourseResponse(
             course_id=request.course_id,
-            title="Автотесты API",
-            description="Будем изучать написание API автотестов"
+            title="Autotests API",
+            description="We'll learn API autotests"
         )
 
 
