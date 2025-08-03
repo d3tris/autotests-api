@@ -3,7 +3,7 @@ from httpx import Response
 from typing import TypedDict
 
 
-class CreateUserDict(TypedDict):
+class CreateUserRequestDict(TypedDict):
     """
     Описание структуры запроса для создания пользователя.
     """
@@ -18,11 +18,11 @@ class PublicUsersClient(APIClient):
     """
     Клиент для работы с /api/v1/users
     """
-    def create_user_api(self, request: CreateUserDict) -> Response:
+    def create_user_api(self, request: CreateUserRequestDict) -> Response:
         """
         Метод создает пользователя.
 
-        :param request: Словарь с данными пользователя email, password, lastName, firstName, middleName.
+        :param request: Словарь с email, password, lastName, firstName, middleName.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
         return self.post("/api/v1/users", json=request)
