@@ -1,5 +1,5 @@
 from clients.courses.courses_client import get_courses_client, CreateCourseRequestDict
-from clients.exercises.exercises_client import CreateExerciseRequestDict, get_exercises_client
+from clients.exercises.exercises_client import get_exercises_client, CreateExerciseRequestDict
 from clients.files.files_client import get_files_client, CreateFileRequestDict
 from clients.private_http_builder import AuthenticationUserDict
 from clients.users.public_users_client import get_public_users_client, CreateUserRequestDict

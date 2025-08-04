@@ -18,11 +18,25 @@ class Exercise(TypedDict):
     estimatedTime: str
 
 
+class GetExerciseResponseDict(TypedDict):
+    """
+    Описание структуры ответа на получение одного задания.
+    """
+    exercise: Exercise
+
+
 class GetExercisesQueryDict(TypedDict):
     """
     Описание структуры запроса на получение списка заданий для определенного курса.
     """
     courseId: str
+
+
+class GetExercisesResponseDict(TypedDict):
+    """
+    Описание структуры ответа на получение списка заданий.
+    """
+    exercises: list[Exercise]
 
 
 class CreateExerciseRequestDict(TypedDict):
@@ -55,20 +69,6 @@ class UpdateExerciseRequestDict(TypedDict):
     orderIndex: int | None
     description: str | None
     estimatedTime: str | None
-
-
-class GetExercisesResponseDict(TypedDict):
-    """
-    Описание структуры ответа при получении списка заданий.
-    """
-    exercises: list[Exercise]
-
-
-class GetExerciseResponseDict(TypedDict):
-    """
-    Описание структуры ответа при получении одного задания.
-    """
-    exercise: Exercise
 
 
 class ExercisesClient(APIClient):
