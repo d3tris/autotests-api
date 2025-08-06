@@ -74,3 +74,10 @@ class UpdateExerciseRequestSchema(BaseModel):
     order_index: int = Field(alias="orderIndex")
     description: str | None
     estimated_time: str = Field(alias="estimatedTime")
+
+
+class UpdateExerciseResponseSchema(BaseModel):
+    """
+    Описание структуры ответа обновления задания.
+    """
+    exercise: ExerciseSchema
