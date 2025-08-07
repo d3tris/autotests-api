@@ -10,16 +10,16 @@ from clients.authentication.authentication_schema import LoginRequestSchema, Log
 
 def test_login():
     public_users_client = get_public_users_client()
+    authentication_client  = get_authentication_client()
 
-    request = CreateUserRequestSchema()
-    public_users_client.create_user(request)
+    create_user_request = CreateUserRequestSchema()
+    public_users_client.create_user(create_user_request)
 
-    auth_user_client = get_authentication_client()
-    authentication_user = LoginRequestSchema(
-        email=request.email,
-        password=request.password
+    login_request = LoginRequestSchema(
+        email=create_user_request.email,
+        password=create_user_request.password
     )
-    login_response = auth_user_client.login_api(authentication_user)
+    login_response = authentication_client.login_api(login_request)
     login_response_data = LoginResponseSchema.model_validate_json(login_response.text)
 
     assert_status_code(login_response.status_code, HTTPStatus.OK)
