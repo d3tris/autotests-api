@@ -23,6 +23,7 @@ def assert_user(actual: UserSchema, expected: UserSchema):
 
     :param actual: Фактические данные пользователя (UserSchema).
     :param expected: Ожидаемые данные пользователя (UserSchema).
+    :raises AssertionError: Если хотя бы одно поле не совпадает.
     """
     assert_equal(actual.id, expected.id, "id")
     assert_equal(actual.email, expected.email, "email")
@@ -37,5 +38,6 @@ def assert_get_user_response(get_user_response: GetUserResponseSchema, create_us
 
     :param get_user_response: Ответ API при запросе пользователя (UserSchema).
     :param create_user_response: Ответ API при создании пользователя (CreateUserResponseSchema).
+    :raises AssertionError: Если данные пользователя не совпадают.
     """
     assert_user(get_user_response.user, create_user_response.user)

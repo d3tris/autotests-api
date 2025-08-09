@@ -1,6 +1,6 @@
 import pytest
 from http import HTTPStatus
-from tests.conftest import UserFixture
+from fixtures.users import UserFixture
 from tools.assertions.base import assert_status_code
 from tools.assertions.schema import validate_json_schema
 from clients.users.public_users_client import PublicUsersClient
@@ -26,9 +26,9 @@ def test_create_user(public_users_client: PublicUsersClient):
 @pytest.mark.regression
 def test_get_user_me(private_users_client: PrivateUsersClient, function_user: UserFixture):
     response = private_users_client.get_user_me_api()
-    get_user_response = GetUserResponseSchema.model_validate_json(response.text)
+    response_data = GetUserResponseSchema.model_validate_json(response.text)
 
     assert_status_code(response.status_code, HTTPStatus.OK)
-    assert_get_user_response(get_user_response, function_user.response)
+    assert_get_user_response(response_data, function_user.response)
 
-    validate_json_schema(response.json(), get_user_response.model_json_schema())
+    validate_json_schema(response.json(), response_data.model_json_schema())
