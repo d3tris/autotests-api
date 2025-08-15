@@ -42,14 +42,14 @@ def assert_exercise(actual: ExerciseSchema, expected: ExerciseSchema):
 
 
 def assert_get_exercise_response(
-        actual: GetExerciseResponseSchema,
-        expected: GetExerciseResponseSchema
+        get_exercise_response: GetExerciseResponseSchema,
+        create_exercise_response: CreateExerciseResponseSchema
 ):
     """
-    Проверяет, что ответ на получение задания соответствует ожидаемому ответу.
+    Проверяет, что ответ на получение задания соответствует ответу на его создание.
 
-    :param actual: Ответ API при получении задания.
-    :param expected: Ответ API при создании задания.
+    :param get_exercise_response: Ответ API при запросе данных задания.
+    :param create_exercise_response: Ответ API при создании задания.
     :raises AssertionError: Если данные задания не совпадают.
     """
-    assert_exercise(actual.exercise, expected.exercise)
+    assert_exercise(get_exercise_response.exercise, create_exercise_response.exercise)
