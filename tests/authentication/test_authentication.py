@@ -17,12 +17,15 @@ from clients.authentication.authentication_schema import LoginRequestSchema, Log
 @pytest.mark.regression
 @pytest.mark.authentication
 @allure.epic(AllureEpic.LMS)
+@allure.parent_suite(AllureEpic.LMS)
+@allure.suite(AllureFeature.AUTHENTICATION)
 @allure.feature(AllureFeature.AUTHENTICATION)
 @allure.tag(AllureTag.REGRESSION, AllureTag.AUTHENTICATION)
 class TestAuthentication:
     @allure.title("Login with correct email and password")
     @allure.story(AllureStory.LOGIN)
     @allure.severity(Severity.BLOCKER)
+    @allure.sub_suite(AllureStory.LOGIN)
     def test_login(self, function_user: UserFixture, authentication_client: AuthenticationClient):
         request = LoginRequestSchema(email=function_user.email, password=function_user.password)
         response = authentication_client.login_api(request)
