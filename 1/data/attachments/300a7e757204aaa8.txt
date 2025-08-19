@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDIwOjUzOjUzLjM4OTE2OCIsInVzZXJfaWQiOiI1MTkyNjdmNC1hOWRkLTRjZTctYWVjNi1kOTQ3YzAyN2Y2YjMifQ.lFgaO8rVkWAITRdtJCgLfIiNW7qJdGjnn40XwMLZPYc' \
+  -H 'content-length: 276' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sure later look.","courseId":"87e54770-ab8a-498d-acc5-ccfda30aeac7","maxScore":78,"minScore":27,"orderIndex":86,"description":"Base enough test thought better. Common spend surface decide thousand. Structure pattern gas manager candidate.","estimatedTime":"1 weeks"}'

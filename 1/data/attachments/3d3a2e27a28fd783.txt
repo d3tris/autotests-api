@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDIwOjUzOjU1LjgxODMxNCIsInVzZXJfaWQiOiI2MTM2MGVlNS04ZjgyLTQyODQtODAzMy1lNWI5ZWU0ZDc5ZTMifQ.5JsFu9A550c0AdydXh2fMxvPhJ1rw12oDKBEIGkJD3A' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Project door out will teach put he soon.","maxScore":60,"minScore":19,"description":"Left help west between. Point body would pretty say read him. Certain live help voice. Property try arm draw tell.\nThink chair so offer. Only camera pattern watch.","estimatedTime":"10 weeks","previewFileId":"a1221c28-4a62-44d0-9404-ec1003b68e51","createdByUserId":"61360ee5-8f82-4284-8033-e5b9ee4d79e3"}'

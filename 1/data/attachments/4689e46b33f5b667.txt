@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDIwOjUzOjU0LjYwMTQzMSIsInVzZXJfaWQiOiI1ODk0MWM1NS1jYjM0LTRjMmMtYThkZC05ZmUxYjNlNTcwNTIifQ.CVz24JJAX68ppT43e9CViakLPhv0fuPLvvMLeUeLtMA' \
+  -H 'content-length: 386' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Prove out cover up someone tonight.","courseId":"cae363d2-f932-4907-b84d-b6f596a5eaad","maxScore":71,"minScore":25,"orderIndex":15,"description":"Simply such seem similar. Environmental beat natural. Finally choose somebody.\nBaby indicate black. Page all share explain leave land. Task for example.\nHeart just simply after.\nStar idea claim deal.","estimatedTime":"5 weeks"}'

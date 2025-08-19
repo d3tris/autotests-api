@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDIwOjUzOjU1LjE2Njk4NiIsInVzZXJfaWQiOiI0MGM3MDM5ZC05MDlhLTQ1NDYtOTIzYS1mZDlkNDBjZDU1ZTMifQ.Qk_7gqxbd4REJzQEapC_vanN1HyyvXd3v8m_k7dQXvY' \
+  -H 'content-length: 280' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Drug professional school cultural some speech.","courseId":"60f5f0e4-299f-489c-abf8-ca2313d61647","maxScore":54,"minScore":17,"orderIndex":65,"description":"Already million itself really dinner thank effort. Themselves agency certain usually.","estimatedTime":"5 weeks"}'

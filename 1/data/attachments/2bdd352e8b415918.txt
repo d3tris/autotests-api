@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDIwOjUzOjU1LjgxODMxNCIsInVzZXJfaWQiOiI2MTM2MGVlNS04ZjgyLTQyODQtODAzMy1lNWI5ZWU0ZDc5ZTMifQ.5JsFu9A550c0AdydXh2fMxvPhJ1rw12oDKBEIGkJD3A' \
+  -H 'content-length: 359' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Establish marriage feeling system ok level before close.","courseId":"a1fe5992-3f16-4305-b2b4-d959af23355b","maxScore":73,"minScore":1,"orderIndex":55,"description":"Record member what dog now. Adult doctor tough still bag across able. Wall learn democratic from good discover address. Government wonder effort community.","estimatedTime":"1 weeks"}'

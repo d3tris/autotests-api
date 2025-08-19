@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/936124b4-3a8d-41fc-a3ea-a0ea22c20967' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDIwOjUzOjUxLjM3NjUwNiIsInVzZXJfaWQiOiIyNDIzY2E5ZS1kNDYzLTQ1ZGMtOTY2MC1lOGJkYWVjMTQ0YWUifQ.tvO4MSrnxceEuqxpNyVurnSMvoLJqBo6KOT3CWnZBes' \
+  -H 'content-length: 311' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Risk trouble Mr source trial address.","maxScore":82,"minScore":24,"description":"Public two evidence gun yes difficult. Herself western list catch beyond office stand entire. Born necessary growth.\nShare perform lawyer positive. Live loss hotel industry machine audience.","estimatedTime":"1 weeks"}'

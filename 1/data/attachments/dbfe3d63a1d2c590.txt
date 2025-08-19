@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDIwOjUzOjUyLjgyMTg0NSIsInVzZXJfaWQiOiJkMDFhODlkNi1lYmM2LTQzZDgtOGJkOS1lYjIzMzRkNmU0YjYifQ.roklCpOHKILue-qgQrNvcsphMuIQ9r84IZSWgOZwLUc' \
+  -H 'content-length: 386' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mean prove if.","maxScore":66,"minScore":17,"description":"Generation avoid continue rise network.\nSomething bar detail follow family. Hotel building no leader lose.\nRule know vote art.\nMake various politics first side father impact.","estimatedTime":"4 weeks","previewFileId":"c497498e-fd21-42de-846e-b6c493b72dfb","createdByUserId":"d01a89d6-ebc6-43d8-8bd9-eb2334d6e4b6"}'

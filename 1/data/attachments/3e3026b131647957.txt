@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDIwOjUzOjUzLjk1MTQzNCIsInVzZXJfaWQiOiI4MWQwZDliOC1jZTBkLTQxYmEtYTUyOS0xMDg4OGUxNmU5YjkifQ.PDfilQCQC1DAQdSTfHJ1zvYfFjSGQiXQpksXch_kBMA' \
+  -H 'content-length: 330' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Huge which degree plan five catch her.","courseId":"37dfca7a-6f7b-4c35-8988-668d43f5ddd1","maxScore":53,"minScore":18,"orderIndex":4,"description":"Outside of food road report mission activity. Focus your society animal still get determine order. American summer direction both peace picture.","estimatedTime":"1 weeks"}'

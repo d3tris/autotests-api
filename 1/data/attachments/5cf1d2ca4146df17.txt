@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDIwOjUzOjUxLjM3NjUwNiIsInVzZXJfaWQiOiIyNDIzY2E5ZS1kNDYzLTQ1ZGMtOTY2MC1lOGJkYWVjMTQ0YWUifQ.tvO4MSrnxceEuqxpNyVurnSMvoLJqBo6KOT3CWnZBes' \
+  -H 'content-length: 405' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Parent control stop I image source today.","maxScore":52,"minScore":14,"description":"Work many agent. Pick religious any suddenly develop successful society. End majority often decision.\nAble tough just country four. Agency pass many lawyer sound order.","estimatedTime":"9 weeks","previewFileId":"999727a1-f442-4e6e-b03f-5484f3b245f9","createdByUserId":"2423ca9e-d463-45dc-9660-e8bdaec144ae"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDIwOjUzOjUzLjM4OTE2OCIsInVzZXJfaWQiOiI1MTkyNjdmNC1hOWRkLTRjZTctYWVjNi1kOTQ3YzAyN2Y2YjMifQ.lFgaO8rVkWAITRdtJCgLfIiNW7qJdGjnn40XwMLZPYc' \
+  -H 'content-length: 437' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Then mother identify conference none research store.","maxScore":89,"minScore":6,"description":"American technology movement her structure. Every power worker including white support. Nothing full matter.\nAgain admit light race size three. Thus campaign help chair degree check realize.","estimatedTime":"3 weeks","previewFileId":"f9f823c3-7b3c-46d8-aa10-550b00facd74","createdByUserId":"519267f4-a9dd-4ce7-aec6-d947c027f6b3"}'

@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:29 Make PATCH request to http://localhost:8000/api/v1/courses/936124b4-3a8d-41fc-a3ea-a0ea22c20967
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/courses/936124b4-3a8d-41fc-a3ea-a0ea22c20967
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:21 Check update course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Risk trouble Mr source trial address.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 82
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 24
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Public two evidence gun yes difficult. Herself western list catch beyond office stand entire. Born necessary growth.
+Share perform lawyer positive. Live loss hotel industry machine audience.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 1 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating JSON schema

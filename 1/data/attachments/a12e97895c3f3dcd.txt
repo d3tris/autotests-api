@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDIwOjUzOjUyLjI1MjU3MSIsInVzZXJfaWQiOiI0M2ZkMDJlYS1iZDgwLTQ5NDYtODkwNi00YjI4NzA5ZWU3ZDUifQ.MSg47WOxaIKqXZBVPb9HKfxBPmSXuZSTC1Q6c7anzMo' \
+  -H 'content-length: 408' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ever model page example.","maxScore":98,"minScore":1,"description":"Art none establish magazine name total must.\nDeep along media later. Light which yourself class scientist place. Exist seven that real.\nAlthough boy capital successful close player which.","estimatedTime":"10 weeks","previewFileId":"8350d474-ecff-4380-a1e7-bb2076cad5d6","createdByUserId":"43fd02ea-bd80-4946-8906-4b28709ee7d5"}'

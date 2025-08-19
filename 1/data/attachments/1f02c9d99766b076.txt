@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDIwOjUzOjU1LjE2Njk4NiIsInVzZXJfaWQiOiI0MGM3MDM5ZC05MDlhLTQ1NDYtOTIzYS1mZDlkNDBjZDU1ZTMifQ.Qk_7gqxbd4REJzQEapC_vanN1HyyvXd3v8m_k7dQXvY' \
+  -H 'content-length: 384' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Data send rich product term.","maxScore":100,"minScore":2,"description":"Film health social morning main mission show. Range may about part drive foreign talk series. Beautiful behind station big whose. North lawyer under writer trip.","estimatedTime":"8 weeks","previewFileId":"d1569732-8f3e-49f6-942e-f80908076764","createdByUserId":"40c7039d-909a-4546-923a-fd9d40cd55e3"}'

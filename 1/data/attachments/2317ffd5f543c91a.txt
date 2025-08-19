@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDIwOjUzOjUzLjk1MTQzNCIsInVzZXJfaWQiOiI4MWQwZDliOC1jZTBkLTQxYmEtYTUyOS0xMDg4OGUxNmU5YjkifQ.PDfilQCQC1DAQdSTfHJ1zvYfFjSGQiXQpksXch_kBMA' \
+  -H 'content-length: 426' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Stage free production century prevent change.","maxScore":69,"minScore":13,"description":"Teach pressure position seat executive. Light report single brother into enough. Their future bag lay step change.\nWriter trade cup with experience possible. Learn spring life consumer.","estimatedTime":"9 weeks","previewFileId":"289b6946-2ac0-48f6-9fa4-383408d0c5e5","createdByUserId":"81d0d9b8-ce0d-41ba-a529-10888e16e9b9"}'
