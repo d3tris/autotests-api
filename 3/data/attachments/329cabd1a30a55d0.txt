@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDIxOjM5OjM3LjAyNDY5MCIsInVzZXJfaWQiOiIzMzEzNjg0Ni04MGM2LTRiOGQtOWEzYy05ZGQ4NjFkN2Q5ZTMifQ._8g578VhP0ve4cFgpdfl4aj5MoaNgdfZSX23HdSwDX4' \
+  -H 'content-length: 356' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Read husband baby but road.","maxScore":96,"minScore":1,"description":"Own Democrat last prepare everything effort. Second trip instead source form.\nMe some before method son class. Me kitchen hard relate.","estimatedTime":"7 weeks","previewFileId":"ca881cab-33fe-47c3-a846-237b9981c552","createdByUserId":"33136846-80c6-4b8d-9a3c-9dd861d7d9e3"}'

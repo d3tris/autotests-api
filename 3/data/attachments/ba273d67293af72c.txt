@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDIxOjM5OjQwLjM4OTU4MiIsInVzZXJfaWQiOiIxMDg1MDU5Ni0xMmIzLTRhMWQtYjBmMy02Y2U5MmY2NWYzNjIifQ.Hlg3eCofZV8z6qDtURnIEL8j0NsK9vAGSfTuf8oKc8o' \
+  -H 'content-length: 421' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fall space husband shoulder young customer.","maxScore":83,"minScore":27,"description":"Seven military tend old some. Wide group top test issue.\nInternational upon per that rich board collection wide. Determine service region development. Pay pay manage summer politics.","estimatedTime":"3 weeks","previewFileId":"52c3684b-9822-4c1e-aa18-59a5277ab72b","createdByUserId":"10850596-12b3-4a1d-b0f3-6ce92f65f362"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDIxOjM5OjM5LjQzNTMzNCIsInVzZXJfaWQiOiI5ODRmYTQ1My1mNWRkLTRlMWMtYmZlOS04Y2YwYjg2MGFjNTkifQ.NvkFF3n5ElxFfuLQSAIihu0Glw3waGunIF8nscXAZkE' \
+  -H 'content-length: 416' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Remember community science activity.","maxScore":98,"minScore":5,"description":"Note world its share. Toward term minute reflect nor else draw.\nUpon painting financial box attention. Early wide stuff anyone we important. Less before against mission another believe.","estimatedTime":"3 weeks","previewFileId":"0e596362-5614-4920-b60e-9a1f155b807e","createdByUserId":"984fa453-f5dd-4e1c-bfe9-8cf0b860ac59"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDIxOjM5OjM2LjQzMjYxNCIsInVzZXJfaWQiOiIyNzBiY2RkMC1mZWUyLTQyYWItYjBiZi0wZTVmZjY5ZDFiN2EifQ.f3PuicRxMVUjzx5i-QCFErPuMSYVOvmj6peUrF9PP7I' \
+  -H 'content-length: 334' \
+  -H 'content-type: application/json' \
+  -d '{"title":"When condition though together during particularly.","maxScore":81,"minScore":29,"description":"Art blood dog ability expect. Interesting senior economy still real staff society total.","estimatedTime":"8 weeks","previewFileId":"a94c3fbe-1c92-4237-b2cd-f2e6c87f252f","createdByUserId":"270bcdd0-fee2-42ab-b0bf-0e5ff69d1b7a"}'

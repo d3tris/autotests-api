@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDIxOjM5OjM4LjIxNjMxNiIsInVzZXJfaWQiOiIxZTc2Y2QwNy0yMmM5LTQ5NGYtOTMwNy0yNmZjNDgxZWUwMjkifQ.x6cy2rfOasDknkkJDj983jzAV63UBCRvz7PtGXUy2M8' \
+  -H 'content-length: 366' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Brother very Republican out process staff sure media.","maxScore":62,"minScore":16,"description":"Lay behind at ago least remember. Five thus plan college.\nArtist personal focus. Small coach certain career article.","estimatedTime":"10 weeks","previewFileId":"68c02cd9-ef97-41f9-9148-864098c7f33a","createdByUserId":"1e76cd07-22c9-494f-9307-26fc481ee029"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/924d958e-38d2-416e-a817-d329248b3871' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDIxOjM5OjM1LjUyNDgyNSIsInVzZXJfaWQiOiJjZWQ2MGZmNi0yNDFlLTQ0NWQtYjc0NC0wZDEwNWM1ZjU4YzYifQ.dQUivo-Zm7LOpZGzsSVpERVBu4puK39adjwXP4FVNvc' \
+  -H 'content-length: 186' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Authority general ever seat.","maxScore":97,"minScore":30,"description":"Kitchen long market question short military season. Seek data sell million.","estimatedTime":"9 weeks"}'

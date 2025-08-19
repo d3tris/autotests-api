@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDIxOjM5OjM5LjE2MjM1NyIsInVzZXJfaWQiOiI5NWRiNjUyNC0yZmJjLTQ0ZTEtYWU5NC01YzJjZTc4OGIyM2EifQ.f64B702Wz6cVsZbNxzYJ2_cVrPjx9PgHw_amAX3ACV4' \
+  -H 'content-length: 409' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Than theory three still.","maxScore":59,"minScore":26,"description":"Idea and anything stand. Even pay imagine television student stock.\nBetween statement recently question system always want so. Pass process can decade. Wife record off win brother everyone.","estimatedTime":"4 weeks","previewFileId":"af59c193-aa19-4a57-b334-1514a7db3535","createdByUserId":"95db6524-2fbc-44e1-ae94-5c2ce788b23a"}'

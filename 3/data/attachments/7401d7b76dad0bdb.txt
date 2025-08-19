@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDIxOjM5OjM3Ljk0MzM5MiIsInVzZXJfaWQiOiJlNGZkZTI0NC0wMDc3LTQyMDctOGU3Ni0xZGNiMjY3NGYyZjAifQ.YaC3lR0oehzpmow26Gd5M1fCM9ua6UBO-UPY2mT02cc' \
+  -H 'content-length: 405' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Than interview tend condition senior son.","maxScore":77,"minScore":15,"description":"Reach federal economic receive certainly really face. Do anyone western around boy month.\nMr daughter produce protect. Follow consider crime whatever her open good cup.","estimatedTime":"1 weeks","previewFileId":"3b7c1593-1c6e-4e51-b987-a45e763ae3bb","createdByUserId":"e4fde244-0077-4207-8e76-1dcb2674f2f0"}'
