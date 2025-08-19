@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDIxOjIwOjEyLjU5NDQ5MyIsInVzZXJfaWQiOiJjYjRlOTZmNi02NzFlLTQyYTQtODIwZS00NmM2NTI4YTJlZGIifQ.9do-fHLu2AenPgPE40HbxjbXZYtgg_fM1pW0CJR6i94' \
+  -H 'content-length: 294' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ago by staff nature feel alone easy ahead.","courseId":"993c052d-d773-4176-9ccd-62a3896c33f5","maxScore":61,"minScore":15,"orderIndex":97,"description":"Chair meeting serve realize now star successful. Drop might after way position college. Treat base six.","estimatedTime":"3 weeks"}'

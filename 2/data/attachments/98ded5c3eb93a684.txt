@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDIxOjIwOjExLjM0MzUxMiIsInVzZXJfaWQiOiIwYTdhN2YyZC05N2IzLTRmYWUtYmYwNi05MjMxZDRkZTdmNGQifQ.GB3qeqFLfWI430xs2yCIMQVx_4OmQU9v1jrc1xhr0WQ' \
+  -H 'content-length: 345' \
+  -H 'content-type: application/json' \
+  -d '{"title":"A thousand hundred capital.","maxScore":69,"minScore":9,"description":"Long hotel news whether Democrat provide. Book husband remain who buy financial. Keep before special often important appear.","estimatedTime":"6 weeks","previewFileId":"f77ddef6-0d13-458f-9037-1275248cc663","createdByUserId":"0a7a7f2d-97b3-4fae-bf06-9231d4de7f4d"}'

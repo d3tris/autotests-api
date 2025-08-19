@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDIxOjIwOjEzLjI2NDgxNiIsInVzZXJfaWQiOiJmNzU4OWE2MS0xNjYxLTQ5MGItYTc1NC1kODkyM2EwMDcwYTUifQ.1ctTz5nIMVTFaJJLkSOW7_PaCBEK3bKpej4hYCAjQc0' \
+  -H 'content-length: 390' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Power speak Mr although future money.","maxScore":73,"minScore":21,"description":"Move under newspaper food. Want three me result especially. Sort action before past.\nAvoid choice beat security because could throw. Lawyer wear affect than.","estimatedTime":"9 weeks","previewFileId":"c7ab4029-3f8e-4ec7-84af-df6f923f7f66","createdByUserId":"f7589a61-1661-490b-a754-d8923a0070a5"}'

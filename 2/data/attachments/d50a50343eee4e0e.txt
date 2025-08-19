@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDIxOjIwOjA5LjU3NDAyMyIsInVzZXJfaWQiOiJiN2YzNGNlOS04ZWRkLTQyYWYtYjJjZS00MjY4YTlkMTNkNjEifQ.Rlc6tjA95gVfTzCH4j01sCeeRf_l66Q9OJjMT6P9rcM' \
+  -H 'content-length: 431' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Staff series on throughout skill visit not.","maxScore":81,"minScore":29,"description":"Agree glass now fill. Out agency huge respond instead walk movement. Parent hundred listen.\nImage key none television. Style determine study walk play Mrs usually. Very modern collection rate.","estimatedTime":"7 weeks","previewFileId":"28a1285a-83dd-4d03-944d-68a866a073e5","createdByUserId":"b7f34ce9-8edd-42af-b2ce-4268a9d13d61"}'

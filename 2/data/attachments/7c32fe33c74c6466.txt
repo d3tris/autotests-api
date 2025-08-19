@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/ea580737-21b7-4b3f-b2e1-0c831f87d6dc' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDIxOjIwOjA4LjY3NDk3NiIsInVzZXJfaWQiOiJmZjk2OGU0MS1kMjczLTQxZWYtYjkwOS1iZjdmODZhOWI1ZmEifQ.GhlQv5a0BTjYmTwsyBuNj8Jt7ZeA4pZPFueqLrvZyLg' \
+  -H 'content-length: 258' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Authority around power under clear Democrat beautiful.","maxScore":84,"minScore":15,"description":"Arm direction player serious. Look since loss particularly little. Serve never require certainly center Democrat someone.","estimatedTime":"8 weeks"}'

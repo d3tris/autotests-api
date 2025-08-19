@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDIxOjIwOjEzLjI2NDgxNiIsInVzZXJfaWQiOiJmNzU4OWE2MS0xNjYxLTQ5MGItYTc1NC1kODkyM2EwMDcwYTUifQ.1ctTz5nIMVTFaJJLkSOW7_PaCBEK3bKpej4hYCAjQc0' \
+  -H 'content-length: 344' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Measure generation boy.","courseId":"d6bfc294-0b12-411a-aa75-406738e0b276","maxScore":96,"minScore":22,"orderIndex":70,"description":"Among child which art parent remember. Short middle star cup feeling.\nHer remain front through. Here knowledge girl carry.\nFear own evidence. Election generation manager.","estimatedTime":"8 weeks"}'

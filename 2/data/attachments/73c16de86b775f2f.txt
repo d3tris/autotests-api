@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDIxOjIwOjExLjk5ODg0MyIsInVzZXJfaWQiOiJmNzAzMmE0Ni03MmVlLTQ4MDctYWQzZC05YjU1MmVjZmUwYjUifQ.o6TDRrDfkE99yUKJsam1hHJEQ42oevEZVN72_XDSjVY' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Floor citizen behind man yet.","maxScore":87,"minScore":23,"description":"Bad hotel and piece not yourself. American professional cup government there public.\nCollection trial level save water where. Return around last western politics nation car.","estimatedTime":"3 weeks","previewFileId":"57854704-9d58-4909-ada4-49329a30fd78","createdByUserId":"f7032a46-72ee-4807-ad3d-9b552ecfe0b5"}'

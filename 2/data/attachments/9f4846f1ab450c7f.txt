@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDIxOjIwOjEwLjE2Nzc4MyIsInVzZXJfaWQiOiIzYTE1NTE4MC1jODNhLTQyYzktOWU1Mi04MmI4OWU1MzEyZTEifQ.NURNbVmqgH89p0wcQ6GqO2Hlo_GynjYTB9QOb3o8L4c' \
+  -H 'content-length: 393' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fall military far serious.","maxScore":97,"minScore":13,"description":"Bed least billion modern.\nBut up investment. Agreement imagine production foot assume trade think. Structure training specific experience argue.\nAnimal picture top sport.","estimatedTime":"9 weeks","previewFileId":"06274b13-66e9-496f-afca-44a9bd2afbbb","createdByUserId":"3a155180-c83a-42c9-9e52-82b89e5312e1"}'

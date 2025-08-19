@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDIxOjIwOjA4LjY3NDk3NiIsInVzZXJfaWQiOiJmZjk2OGU0MS1kMjczLTQxZWYtYjkwOS1iZjdmODZhOWI1ZmEifQ.GhlQv5a0BTjYmTwsyBuNj8Jt7ZeA4pZPFueqLrvZyLg' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Young well well serious owner soldier able.","maxScore":57,"minScore":18,"description":"Late certain check agreement. Good simple protect military.\nSome court value ask edge. Charge party toward quite high produce even. Along present control adult from.","estimatedTime":"6 weeks","previewFileId":"c34e8b09-3f45-4a93-8af7-98e43d88e89b","createdByUserId":"ff968e41-d273-41ef-b909-bf7f86a9b5fa"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDIxOjIwOjEyLjU5NDQ5MyIsInVzZXJfaWQiOiJjYjRlOTZmNi02NzFlLTQyYTQtODIwZS00NmM2NTI4YTJlZGIifQ.9do-fHLu2AenPgPE40HbxjbXZYtgg_fM1pW0CJR6i94' \
+  -H 'content-length: 323' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Since high join sit something education there.","maxScore":76,"minScore":7,"description":"City nation into deep professor major answer base. Early off yourself value charge.","estimatedTime":"4 weeks","previewFileId":"42964a19-d10d-4040-af7c-fd7f345c042f","createdByUserId":"cb4e96f6-671e-42a4-820e-46c6528a2edb"}'
