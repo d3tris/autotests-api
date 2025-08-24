@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI0VDE1OjM3OjExLjYxMTIzMSIsInVzZXJfaWQiOiIxYmY0NTkwMC1mMjY1LTRlYjMtODcyYy1mNTdjMjcyNGE0YWEifQ.7FA2p_t03IVfDz3vpjwUzegFcbAcEB97g2fzAH2QcsU' \
+  -H 'content-length: 352' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Medical three local PM.","courseId":"90bc4724-dfd4-4188-babd-4ea729dd0136","maxScore":50,"minScore":10,"orderIndex":45,"description":"Space fund dark boy. Government people approach win statement trouble.\nPhone work medical so statement property. Consumer because fight majority. Better worker government natural.","estimatedTime":"8 weeks"}'

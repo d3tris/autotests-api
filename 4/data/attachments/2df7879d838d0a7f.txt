@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/ac5e7e60-3125-4841-9cb3-804b76cba5c0' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI0VDE1OjM3OjA3LjM1NzUyMiIsInVzZXJfaWQiOiJhZGZiNjg1ZS0yNTI1LTQxYWEtYjZjOC0xYmM4N2M2MGZkMDkifQ.l9yaSycvAVWExB8UZK9wn9Eiz_b-6UO4zMT_d-8v6lY' \
+  -H 'content-length: 276' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Among sit group walk.","maxScore":96,"minScore":26,"description":"Discussion its place total still popular. Activity spend for others against style guess.\nLetter chance cultural western box likely. Pm anything information real president.","estimatedTime":"4 weeks"}'

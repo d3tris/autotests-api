@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI0VDE1OjM3OjA5LjgyMjk0MiIsInVzZXJfaWQiOiI2YzBmNWIwZS1hZWE5LTRjMDYtYjU0Zi1lZDM5YTJlMjA0NjIifQ.iTbcUaJ4y1dwPPwP3MeT88ukbHireMyDAXrq6T0DLGE' \
+  -H 'content-length: 343' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Measure often life can near.","maxScore":74,"minScore":4,"description":"Owner author without. Fill live image must.\nNearly close model here. Maybe reduce program tend wind training easy story.","estimatedTime":"8 weeks","previewFileId":"5f2d120d-8cc6-4d3f-a41f-4a4b3a1545f7","createdByUserId":"6c0f5b0e-aea9-4c06-b54f-ed39a2e20462"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI0VDE1OjM3OjA4LjY0ODMxMSIsInVzZXJfaWQiOiI3NWE5OTBmOS0zZjI4LTRlOTktOWE1NC03ZTkzNWZiYjBjMzcifQ.lNgWZvSGDiBx5lk0pLIS3Z5U0VED_H98skTyJ0qozEM' \
+  -H 'content-length: 350' \
+  -H 'content-type: application/json' \
+  -d '{"title":"All attorney explain or could.","maxScore":55,"minScore":16,"description":"What collection final budget myself try body. Tonight but thing dog by enter protect community. Us because candidate station.","estimatedTime":"7 weeks","previewFileId":"0852b4f6-4fa0-4ff5-9655-605705313d29","createdByUserId":"75a990f9-3f28-4e99-9a54-7e935fbb0c37"}'

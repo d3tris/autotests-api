@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI0VDE1OjM3OjExLjYxMTIzMSIsInVzZXJfaWQiOiIxYmY0NTkwMC1mMjY1LTRlYjMtODcyYy1mNTdjMjcyNGE0YWEifQ.7FA2p_t03IVfDz3vpjwUzegFcbAcEB97g2fzAH2QcsU' \
+  -H 'content-length: 347' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Deal threat value important Congress drive something.","maxScore":58,"minScore":29,"description":"Computer control particular in success necessary. Choice car easy off summer. Spring power officer.","estimatedTime":"8 weeks","previewFileId":"b1a1cdbc-bdb7-42c1-8476-c5b3b8b60c65","createdByUserId":"1bf45900-f265-4eb3-872c-f57c2724a4aa"}'

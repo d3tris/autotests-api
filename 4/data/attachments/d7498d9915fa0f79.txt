@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI0VDE1OjM3OjA5LjIzMTkyOSIsInVzZXJfaWQiOiJiZGVjYWY0Zi1iYjRhLTQyY2YtYWIzNS1iNjAxYWRjNzdmMWUifQ.DyLEKBGUp4CnEtP5aB5nWMjHqYBzrtTYjpuUzYMjwNw' \
+  -H 'content-length: 338' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Off clearly head court.","maxScore":73,"minScore":3,"description":"New could forward. Season result table trip. Pay head serious magazine.\nThan born future always kitchen stuff hit speak.","estimatedTime":"6 weeks","previewFileId":"2325880f-8ab3-4eb0-8bc4-4761c44ec3da","createdByUserId":"bdecaf4f-bb4a-42cf-ab35-b601adc77f1e"}'

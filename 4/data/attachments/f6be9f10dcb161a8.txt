@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:29 Make GET request to http://localhost:8000/api/v1/exercises/05bc4a64-6163-43f1-8fba-c69ed2b586c1
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/exercises/05bc4a64-6163-43f1-8fba-c69ed2b586c1
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:69 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:45 Check exercise
+INFO     BASE_ASSERTIONS:base.py:36 Check that "id" equals to 05bc4a64-6163-43f1-8fba-c69ed2b586c1
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Oil training fast her lead trade blood.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "course_id" equals to 092ed474-32b0-4801-966a-1d0413384384
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 75
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 26
+INFO     BASE_ASSERTIONS:base.py:36 Check that "order_index" equals to 36
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Technology medical yet actually song firm. Important believe everyone democratic.
+Including either impact alone bed feel. Body man continue happy. Join build seven.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 6 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating JSON schema

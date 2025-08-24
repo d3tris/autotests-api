@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI0VDE1OjM3OjEwLjQwNTQzOCIsInVzZXJfaWQiOiIwNGRiNTA0Mi03ZWQwLTQ3ODctYmU2MC01OWFhNmZkYzJlNmMifQ.GDWJprJyVHGA1ElVhvtgw71vMyuUismhz7E59AyFhSg' \
+  -H 'content-length: 353' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Oil training fast her lead trade blood.","courseId":"092ed474-32b0-4801-966a-1d0413384384","maxScore":75,"minScore":26,"orderIndex":36,"description":"Technology medical yet actually song firm. Important believe everyone democratic.\nIncluding either impact alone bed feel. Body man continue happy. Join build seven.","estimatedTime":"6 weeks"}'
