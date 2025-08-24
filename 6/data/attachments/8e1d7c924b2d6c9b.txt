@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI0VDE5OjU4OjU2LjU5MDkyMiIsInVzZXJfaWQiOiIxZmFmMGViZi04Yjk2LTQwZTUtOGUxYS04ODNhNzdmZTNlZjQifQ.CGWLkKtQFec9PIqz27AsuuHJv6iMgwv8lgBVepb9woA' \
+  -H 'content-length: 366' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Security probably cultural feel visit show.","maxScore":76,"minScore":16,"description":"Now chance whether guess develop wait authority. Reach assume assume high enter serve operation. Set rich affect city bill only.","estimatedTime":"8 weeks","previewFileId":"1f4c5518-cb1f-483b-a503-de13b9b95efc","createdByUserId":"1faf0ebf-8b96-40e5-8e1a-883a77fe3ef4"}'

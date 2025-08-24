@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI0VDE5OjU4OjU4LjEyMzAwNiIsInVzZXJfaWQiOiI3MzZlOTNhYy0xOWE0LTRhNTYtYmRjMC1lZmJkY2RjNjU0YWQifQ.vkyJBdU8U5Az-LbVDgveixi2uY7H25xBVKW754jobUQ' \
+  -H 'content-length: 316' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Record ball generation sit theory Mrs next former.","maxScore":99,"minScore":16,"description":"Leg my feel. Final little yourself. Almost door provide include policy.","estimatedTime":"1 weeks","previewFileId":"7ab3f9f2-df6e-43f8-8b30-f9e661f76cef","createdByUserId":"736e93ac-19a4-4a56-bdc0-efbdcdc654ad"}'

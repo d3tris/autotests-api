@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI0VDE5OjU4OjU1LjY1MzA2MCIsInVzZXJfaWQiOiJkNGI0N2MxZi0wZmNmLTQyNmUtODU0My00MTM4ODJhZDQxNTUifQ.vxD_UztqU-M5MlhjP277v_6xgoNIPe58hnQKU2W9fjw' \
+  -H 'content-length: 386' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Traditional deep recent leader sound time door.","courseId":"8f1ee5a9-1fa9-4499-ad97-627c4a8a1739","maxScore":62,"minScore":29,"orderIndex":58,"description":"Respond quite lot data. Field experience adult beat success.\nCondition than serious use even stuff analysis. On better oil something figure drug accept. Long professor sometimes population.","estimatedTime":"3 weeks"}'

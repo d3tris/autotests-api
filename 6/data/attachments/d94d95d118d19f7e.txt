@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI0VDE5OjU4OjU1LjY1MzA2MCIsInVzZXJfaWQiOiJkNGI0N2MxZi0wZmNmLTQyNmUtODU0My00MTM4ODJhZDQxNTUifQ.vxD_UztqU-M5MlhjP277v_6xgoNIPe58hnQKU2W9fjw' \
+  -H 'content-length: 356' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Professor crime human care expert minute class.","maxScore":95,"minScore":3,"description":"Morning meet address condition enjoy sound range.\nHave according easy. Deal seven large visit artist space spring.","estimatedTime":"2 weeks","previewFileId":"511a910c-c26c-4ba9-8fc6-af8ff05d6a70","createdByUserId":"d4b47c1f-0fcf-426e-8543-413882ad4155"}'

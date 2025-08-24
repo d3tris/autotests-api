@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI0VDE5OjU4OjU3Ljg0MDA0NSIsInVzZXJfaWQiOiJmOTY2Y2VkOS0xMTgxLTRkMjctOTJkMS03ODVlYzhhZDQ2ZmEifQ.THXy9Ps6LZDOQoCExVCagNGRrtQ5ZX4g-ad6q-a8YDc' \
+  -H 'content-length: 365' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Page they child suffer skin more throw.","courseId":"01b0ab3c-8d24-452b-baad-22dc9050a30f","maxScore":97,"minScore":6,"orderIndex":3,"description":"Skill politics picture. Positive fly speak down various out level.\nDifficult each song wish five a. Herself fund leave different nation station require. Television article whose.","estimatedTime":"2 weeks"}'

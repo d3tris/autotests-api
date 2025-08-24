@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI0VDE5OjU4OjU1LjM3OTA4OSIsInVzZXJfaWQiOiI1NzMyMzM2Yi1iODg0LTQwNTctODA1Yy05NjliNjc3NWRlMjIifQ.pPNXvWNH70riQ82zXfcoe14by0hemFQg0h6lYsn9S_o' \
+  -H 'content-length: 388' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Financial light social start again tough.","maxScore":74,"minScore":19,"description":"Teacher easy hospital. Less example enjoy require two ten nor individual.\nLine outside girl five add election white far. Contain name west institution.","estimatedTime":"3 weeks","previewFileId":"0d744907-6524-481f-ba4c-155aa9a57c61","createdByUserId":"5732336b-b884-4057-805c-969b6775de22"}'

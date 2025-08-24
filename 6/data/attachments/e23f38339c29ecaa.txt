@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI0VDE5OjU4OjU2Ljg2NjE1NiIsInVzZXJfaWQiOiJkYjhiMjQzMC04NjgxLTQ5YWYtOGM5Yi0wMjk3Yzc5MmNlOTYifQ.934-m3-bOCS524Ax0pdazU_dB1O99d0cBkWX5hZ0g84' \
+  -H 'content-length: 410' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Radio from he so ok several next.","maxScore":94,"minScore":24,"description":"Professional hour price available two yet. Edge mention expert keep item bad reach hard.\nPeople perform agree approach body economic. Speech over record tree. Concern since get run.","estimatedTime":"6 weeks","previewFileId":"5eaf6722-72b5-4f0c-8349-d3a92c87d523","createdByUserId":"db8b2430-8681-49af-8c9b-0297c792ce96"}'

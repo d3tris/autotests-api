@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:29 Make PATCH request to http://localhost:8000/api/v1/courses/ffafef7b-44cb-43be-8683-06ee505e4444
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/courses/ffafef7b-44cb-43be-8683-06ee505e4444
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:21 Check update course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Hard star foreign reason.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 83
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 10
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Cell benefit attack dark house. Seek from hit recognize open author. Plant hospital use beat price customer he.
+Trade finally our while. Certainly health according require speak.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 5 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validating JSON schema

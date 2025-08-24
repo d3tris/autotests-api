@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI0VDE5OjU4OjU3Ljg0MDA0NSIsInVzZXJfaWQiOiJmOTY2Y2VkOS0xMTgxLTRkMjctOTJkMS03ODVlYzhhZDQ2ZmEifQ.THXy9Ps6LZDOQoCExVCagNGRrtQ5ZX4g-ad6q-a8YDc' \
+  -H 'content-length: 396' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Speech human after role focus offer professor.","maxScore":97,"minScore":24,"description":"World red which plan bill. Indeed natural represent newspaper recent. Serious election account service cell especially. Opportunity fire always kind seven.","estimatedTime":"8 weeks","previewFileId":"2fa5f759-3bbd-48f8-a6d8-ef9fcb690e0c","createdByUserId":"f966ced9-1181-4d27-92d1-785ec8ad46fa"}'
