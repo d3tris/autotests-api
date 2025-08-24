@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI0VDE2OjI1OjI4LjUyMDI2NCIsInVzZXJfaWQiOiI1NTYwNWRhMC1hNmE1LTQwNjktOTI1Yi1lZThhYTliY2IzMTUifQ.6BcpqhURnPonbToJ7JBBSzuV_sNwNIoYZVNmi6CEY9A' \
+  -H 'content-length: 339' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sound trade local clear feeling grow town possible.","maxScore":71,"minScore":9,"description":"Choose whom still put subject. Save place have high local every. Area about character improve.","estimatedTime":"1 weeks","previewFileId":"d5c240cb-04d1-4c9f-a603-f331541b32d7","createdByUserId":"55605da0-a6a5-4069-925b-ee8aa9bcb315"}'

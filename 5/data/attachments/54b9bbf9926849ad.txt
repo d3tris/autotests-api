@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI0VDE2OjI1OjI3LjAzNDUzNSIsInVzZXJfaWQiOiIxNzIxMjk1Ni1mMzM1LTQwNmEtOTBiZC0yM2Y5MzVjMjNlY2QifQ.bnkpNmhpyAWMEnc2mdGBq5NEGFv9YzBdem0tvayZJXw' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Get collection personal realize suffer forward early agreement.","maxScore":54,"minScore":19,"description":"Exactly main tend beyond good your significant. Discover particular thank. Serious year lead particular really money.","estimatedTime":"4 weeks","previewFileId":"c51a1ef8-915e-4c22-8b09-f955383fd301","createdByUserId":"17212956-f335-406a-90bd-23f935c23ecd"}'

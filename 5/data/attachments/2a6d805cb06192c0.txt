@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI0VDE2OjI1OjI3LjMwNjk4MSIsInVzZXJfaWQiOiJmZTRkZjM2YS04YzcxLTRhNzgtOGU0Yy1hNGExN2YyOTNiY2EifQ.cbwoaSrWO7FtJgqGg-rtliFDwm-KvPxixBsBN0QwbGg' \
+  -H 'content-length: 385' \
+  -H 'content-type: application/json' \
+  -d '{"title":"American fly consider voice only speak.","maxScore":89,"minScore":14,"description":"Happy college sport might. Hand career on conference with project. Make turn if.\nEdge right always situation operation two prevent. Baby whatever yes.","estimatedTime":"2 weeks","previewFileId":"1518581e-0478-40d2-9612-d5af6b29b537","createdByUserId":"fe4df36a-8c71-4a78-8e4c-a4a17f293bca"}'

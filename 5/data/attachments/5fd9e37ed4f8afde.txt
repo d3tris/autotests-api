@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI0VDE2OjI1OjI3LjAzNDUzNSIsInVzZXJfaWQiOiIxNzIxMjk1Ni1mMzM1LTQwNmEtOTBiZC0yM2Y5MzVjMjNlY2QifQ.bnkpNmhpyAWMEnc2mdGBq5NEGFv9YzBdem0tvayZJXw' \
+  -H 'content-length: 363' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Series kid first sign system woman goal.","courseId":"0451ff5d-f76e-4ce8-b5d4-3b2e2d7073f0","maxScore":70,"minScore":1,"orderIndex":62,"description":"Billion heart environment leader. Record itself foreign public series sign.\nSee foreign case long.\nSo his seat bed property. She oil require always. Themselves first senior.","estimatedTime":"2 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI0VDE2OjI1OjI4LjI0NzU5OSIsInVzZXJfaWQiOiJlZjNhNWE2My1jZTRjLTQ4OTgtYjdkYy05M2E1MDA3NDM1NjQifQ.kBnSR5k5ZypLo3ZpnSRMn3vvU4D50hee54CxNLQGbhw' \
+  -H 'content-length: 386' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Especially form toward short.","maxScore":97,"minScore":22,"description":"International key do likely. Large bring of identify PM. Professional administration pay.\nRight spring million lead raise. Occur economic million wear away mind.","estimatedTime":"5 weeks","previewFileId":"026a68c9-124b-4bf5-8e6c-329f2c92e079","createdByUserId":"ef3a5a63-ce4c-4898-b7dc-93a500743564"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTI0VDE2OjI1OjI2LjEwOTk2NyIsInVzZXJfaWQiOiIzYjhmZWM0NS1kZmYwLTRlMDEtYWIyNC1jZWYwOGY4YTg4MjMifQ.bvphEQRQAiLrUtYkcRRF2AqAXtPRubua-xgA0WCl7yE' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Change smile memory example.","maxScore":65,"minScore":29,"description":"Pass better account conference visit instead wind citizen. Partner something medical toward year. Bring address both effect nearly relate treatment.","estimatedTime":"9 weeks","previewFileId":"4d6a3292-ba53-4f1b-b01a-5b5cf32d1b87","createdByUserId":"3b8fec45-dff0-4e01-ab24-cef08f8a8823"}'
