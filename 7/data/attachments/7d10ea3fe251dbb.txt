@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIyVDE5OjQwOjU0LjUyMjM2NSIsInVzZXJfaWQiOiI2ZWYyOTU5Mi03ZjdkLTQ4OGMtYWQyOC0xZDFlMDc5NmM2MmMifQ.O92_sjafwA08AiS9v1Gyisl-0sW7u2i8QoIXT4klcLs' \
+  -H 'content-length: 441' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fact member director woman well often cover career.","maxScore":72,"minScore":13,"description":"Knowledge price position.\nSomebody college piece kind. Million peace ability energy green kitchen deal.\nLive this oil money firm size. Late miss break enough exist these door. Next lawyer wear.","estimatedTime":"1 weeks","previewFileId":"1af69587-b103-41a0-996c-35a6412c0a88","createdByUserId":"6ef29592-7f7d-488c-ad28-1d1e0796c62c"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIyVDE5OjQwOjU4LjI3NTkzMiIsInVzZXJfaWQiOiI2ZWMyZjkyMy0yMDc4LTRmMTMtODJjZC0wOWQ0ODg2ZTg1MmQifQ.fgcDnjoixl6C60cQ7YUBp6akZzfA8swtFpicHhlpSDw' \
+  -H 'content-length: 429' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Visit about social dark wonder she.","maxScore":66,"minScore":17,"description":"Quite have book police might. Garden her apply hotel glass turn capital. Air position billion become maintain civil.\nWear whether return cold. Nothing common leader behavior training popular space.","estimatedTime":"10 weeks","previewFileId":"f0af08df-4f01-4f31-be3b-55d512b43a40","createdByUserId":"6ec2f923-2078-4f13-82cd-09d4886e852d"}'

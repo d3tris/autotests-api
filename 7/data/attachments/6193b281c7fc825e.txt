@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIyVDE5OjQwOjU3LjAyOTI0NiIsInVzZXJfaWQiOiIwOTJlNDc4Ny1lZTg5LTRmNDMtYjIxZS1jN2IxNWQ5NjNmNWYifQ.RrtKn-yWQoyinNC2IB4Rx_Bgl44RJsSVE2yDznuyE6A' \
+  -H 'content-length: 415' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Training address inside language development.","maxScore":92,"minScore":6,"description":"Business than treat one. Nation quickly thing look. Industry arm on strategy safe week.\nWest special strong begin now something religious look. Top by get spend fall for guy.","estimatedTime":"10 weeks","previewFileId":"3602eb60-c61a-4826-b992-4397cbf56566","createdByUserId":"092e4787-ee89-4f43-b21e-c7b15d963f5f"}'

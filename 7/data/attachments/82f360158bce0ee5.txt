@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIyVDE5OjQwOjU3LjAyOTI0NiIsInVzZXJfaWQiOiIwOTJlNDc4Ny1lZTg5LTRmNDMtYjIxZS1jN2IxNWQ5NjNmNWYifQ.RrtKn-yWQoyinNC2IB4Rx_Bgl44RJsSVE2yDznuyE6A' \
+  -H 'content-length: 298' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Technology mean source many.","courseId":"9dbd3689-e82b-428c-93f7-4360ebe0addc","maxScore":72,"minScore":8,"orderIndex":10,"description":"Radio security book pick book education gas. Seek less natural century us drive. Local hotel back partner although artist.","estimatedTime":"5 weeks"}'

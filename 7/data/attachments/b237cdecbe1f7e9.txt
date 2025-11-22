@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/d7a29faf-dc37-4fbc-9764-c0e550e46f76' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIyVDE5OjQwOjUzLjkyODE0NSIsInVzZXJfaWQiOiIwZDQ1N2MzNS05NDM4LTQyOWYtOGUwNC1mYTdmNGVjNjY0N2EifQ.zttOFva7vwZTAKN-y9r9iRJ3VI86CRN8m7-G4lb3xgA' \
+  -H 'content-length: 232' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fight friend it responsibility score there.","maxScore":92,"minScore":26,"description":"Radio phone them window international federal well leader. Employee home wall senior foreign effect story.","estimatedTime":"2 weeks"}'
