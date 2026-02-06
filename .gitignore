@@ -9,6 +9,10 @@ __pycache__
 allure-results
 allure-reportg
 
+#unknown
+data.json
+JSON_REST_STRANGE_QUESTIONS_DURING_INTERVIEWS.py
+
 #coverage
 coverage.html
 coverage-results
