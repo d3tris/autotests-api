@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA2VDE0OjE5OjAxLjg4OTQzMCIsInVzZXJfaWQiOiJjMDU5MDdmNi1lNThiLTQwN2YtYTVmYy0wYzg5NjBmNDQ3ZDcifQ.ofICkofaAF_6LKdb09UxDkzqLlj3wwbTlqJflD1BoDE' \
+  -H 'content-length: 441' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Body manager project change because into interesting economic.","maxScore":86,"minScore":28,"description":"Base real risk. If most something life.\nLittle service start inside will account. Movement old hope instead wish put. Seat least no assume tend. Sign purpose indicate two indeed here.","estimatedTime":"5 weeks","previewFileId":"5588451c-228c-4152-b999-c3121991db28","createdByUserId":"c05907f6-e58b-407f-a5fc-0c8960f447d7"}'

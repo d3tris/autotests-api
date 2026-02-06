@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA2VDE0OjE4OjU4LjE1NjY0MCIsInVzZXJfaWQiOiI5MjJhMmRhMy0wYjIzLTQ1NWUtYTU4Ny0zNjc0NzVlM2U3YTEifQ.DlMBrblFyFr3yQ2s8_efhQARN3rQlEAy5p9ynVucU2o' \
+  -H 'content-length: 366' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Street PM lot music view.","maxScore":100,"minScore":14,"description":"Example election your.\nWeight environmental large model. Training enjoy social follow also become oil report. City real ready black always down.","estimatedTime":"8 weeks","previewFileId":"77cc8fd2-d005-4470-ba9f-42212ae57c62","createdByUserId":"922a2da3-0b23-455e-a587-367475e3e7a1"}'

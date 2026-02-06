@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA2VDE0OjE5OjAwLjg0NDM2NyIsInVzZXJfaWQiOiIyNDZiMjRlOC04YWE2LTRmMjctYmEwZC1lZjE0MWE5ZjBiYzkifQ.-MIWHOhg0zExgfe0m8e9evZNH0QHS-zzGqaElGGfIlw' \
+  -H 'content-length: 436' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Report town approach out store professional too.","maxScore":90,"minScore":1,"description":"Despite tonight such bank yard choice. Happen relationship dinner stay.\nRepresent industry result history parent gas. Support especially increase according environmental view evidence several.","estimatedTime":"10 weeks","previewFileId":"a2e411da-2d74-470d-9423-7197d15d8344","createdByUserId":"246b24e8-8aa6-4f27-ba0d-ef141a9f0bc9"}'

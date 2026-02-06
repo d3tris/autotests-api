@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA2VDE0OjE4OjU2LjUwNTg1NSIsInVzZXJfaWQiOiJmYzI4OTVkYS1kOGU2LTRlNzYtYWFkYy0wN2RiMjZhMGY5ZDcifQ.0_QwMhlQySD2giJ7vvAT_w77nZq3AbCjQuL5fuwx434' \
+  -H 'content-length: 405' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Energy simply clear light one.","maxScore":83,"minScore":18,"description":"Whatever job draw movie activity all agreement beat. Alone available member avoid foreign candidate.\nEverything receive miss discuss material. Gun letter when wonder least happen.","estimatedTime":"5 weeks","previewFileId":"b2d4cd60-4518-414b-bdaf-65a7d6aa7c46","createdByUserId":"fc2895da-d8e6-4e76-aadc-07db26a0f9d7"}'

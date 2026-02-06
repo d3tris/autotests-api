@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA2VDE0OjE4OjU5LjE3MTA0MCIsInVzZXJfaWQiOiIwZGEzZGNkYS1hZmM1LTQ0MDAtOTJjOS1mZDcyNTM4ZGU3MzYifQ.P1iVU8plOxu3kjsg-dduxpD1Cf_jM4n2z2gVfVW4F-Y' \
+  -H 'content-length: 363' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Feeling hotel ok newspaper.","maxScore":94,"minScore":3,"description":"Toward huge call none threat cup successful. Standard official let hit girl challenge political. Any method affect get reality front official.","estimatedTime":"6 weeks","previewFileId":"00c31a05-4506-471f-94f1-0cfae64cd68a","createdByUserId":"0da3dcda-afc5-4400-92c9-fd72538de736"}'

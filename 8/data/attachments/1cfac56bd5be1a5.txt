@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA2VDE0OjE4OjU5LjQ3OTU2MSIsInVzZXJfaWQiOiIxYzhlODdjOS1kYTFjLTRiNjItYjIzNy03MTczYjAyODE3MzMifQ.dcZdQFNsw7l5rbFfsjruMFQOcvb-076OlReAGxMU0gw' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Table prevent old present even somebody.","maxScore":61,"minScore":28,"description":"Particular identify thought player knowledge ask mind. Clear cold could only suggest arm free. Full responsibility speak school coach executive.","estimatedTime":"1 weeks","previewFileId":"450939e2-5faa-4d47-88e4-1fc9af4e35c4","createdByUserId":"1c8e87c9-da1c-4b62-b237-7173b0281733"}'

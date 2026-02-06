@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA2VDE0OjE4OjU3LjUwNzEwNyIsInVzZXJfaWQiOiJkMDk1ZGU1MS1kNTcwLTQ1ODUtOTUxOC0yZmE1YTk5MTZkZTkifQ.c9uinArZcdt2toAuNMoURd6mIHFnSP9O7yGBRmKOwVA' \
+  -H 'content-length: 395' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Affect fill support could they start exactly.","maxScore":72,"minScore":11,"description":"Body tell push consumer. Less you watch its already off art year. Star listen give respond world.\nHalf agent word. For inside effort different chair what.","estimatedTime":"5 weeks","previewFileId":"2839e820-1b4d-4dab-b664-924147a90fe6","createdByUserId":"d095de51-d570-4585-9518-2fa5a9916de9"}'
