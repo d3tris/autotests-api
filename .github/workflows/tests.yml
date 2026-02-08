@@ -18,11 +18,11 @@ jobs:
     steps:
       # 1. Шаг, который будет клонировать ваш репозиторий на машину GitHub Actions
       - name: Check out repository
-        uses: actions/checkout@v4  # Используем GitHub Action для клонирования репозитория
+        uses: actions/checkout@v6  # Используем GitHub Action для клонирования репозитория
 
       # 2. Шаг для установки Python на виртуальной машине
       - name: Set up Python
-        uses: actions/setup-python@v5  # Используем GitHub Action для установки Python
+        uses: actions/setup-python@v6  # Используем GitHub Action для установки Python
         with:
           python-version: '3.13'  # Устанавливаем версию Python 3.13 (можно заменить на другую версию)
 
@@ -58,7 +58,7 @@ jobs:
 
       # Восстанавливаем историю покрытия из кеша
       - name: Restore Coverage history
-        uses: actions/cache/restore@v4
+        uses: actions/cache/restore@v5
         with:
           path: coverage-history.json
           key: coverage-history-${{ github.run_id }}
@@ -73,7 +73,7 @@ jobs:
       # Сохраняем историю обратно в кеш
       - name: Cache Coverage  history
         if: always()
-        uses: actions/cache/save@v4
+        uses: actions/cache/save@v5
         with:
           path: coverage-history.json
           key: coverage-history-${{ github.run_id }}
@@ -81,7 +81,7 @@ jobs:
       # Загружаем HTML-отчет как артефакт
       - name: Upload Coverage report
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: coverage-report
           path: coverage.html
@@ -89,7 +89,7 @@ jobs:
       # 8. Шаг для сохранения папки allure-results как артефакта в джобе run-tests
       - name: Upload Allure results
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: allure-results
           path: allure-results
@@ -102,7 +102,7 @@ jobs:
     steps:
       # 9. Шаг для получения истории отчётов Allure, если она существует
       - name: Get Allure history
-        uses: actions/checkout@v4  # Опять клонируем репозиторий, чтобы получить историю отчётов
+        uses: actions/checkout@v6  # Опять клонируем репозиторий, чтобы получить историю отчётов
         if: always()  # Всегда выполняем, независимо от успеха или неудачи предыдущих шагов
         continue-on-error: true  # Если здесь возникнет ошибка, workflow всё равно продолжит выполнение
         with:
@@ -111,7 +111,7 @@ jobs:
 
       #10 Шаг для загрузки Allure отчета из предыдущей джобы run-tests
       - name: Download Allure results
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v7
         with:
           name: allure-results
           path: allure-results
