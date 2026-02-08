@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA4VDExOjAxOjQ5LjY3ODY3MCIsInVzZXJfaWQiOiI2ZWZlMGQ2YS04N2YxLTQ3MDItOTk1YS0yN2FlNjdkNmU2YjQifQ.dMdCaMZMRxJatVB4A-A-3gC7zP6Hjbhl9k3gj4EWSsQ' \
+  -H 'content-length: 393' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Bed moment foreign peace clearly.","maxScore":53,"minScore":19,"description":"Avoid according maybe control product minute thought. Analysis hundred health late account.\nOutside here commercial agreement. Pull of garden modern speak activity.","estimatedTime":"1 weeks","previewFileId":"90adf34b-4c01-42f6-90af-7abf9e238f4b","createdByUserId":"6efe0d6a-87f1-4702-995a-27ae67d6e6b4"}'

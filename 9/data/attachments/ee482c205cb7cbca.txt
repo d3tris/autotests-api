@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA4VDExOjAxOjUwLjg4MDQ2MSIsInVzZXJfaWQiOiIzOTkyNmVhNy04NmIyLTQxNmItYjFhOS1hZTExNTg2NGQxZDgifQ.YFRTgSdtTcWdw_e4t_G7GsJ-NwRjjTMun4VSIN8mMQ8' \
+  -H 'content-length: 428' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Finish sit vote article everything along.","maxScore":59,"minScore":7,"description":"Open arrive task than. Be part between history yet throw. Computer real wonder.\nCharge bad these investment apply. Including blue moment south example ready including. Act remain agency hotel.","estimatedTime":"7 weeks","previewFileId":"53f80ae2-dcaf-4cbc-b36f-23f7b7f95ec7","createdByUserId":"39926ea7-86b2-416b-b1a9-ae115864d1d8"}'

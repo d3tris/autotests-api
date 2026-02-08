@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA4VDExOjAxOjUxLjk5NjUzOSIsInVzZXJfaWQiOiIzM2YyYjBkZi0zNzNmLTQwYWMtOWUyOS02OTliN2UwMGMzMjEifQ.8oAFUvEk7lgdopGeRSePY4h3QH7Mixfm56JvoMgAlP0' \
+  -H 'content-length: 324' \
+  -H 'content-type: application/json' \
+  -d '{"title":"During national group protect down by.","maxScore":95,"minScore":14,"description":"Front pick away per bank. These nothing white question main over.\nPrevent operation night.","estimatedTime":"8 weeks","previewFileId":"74d072d3-b26f-48de-9c99-f20ed6582e97","createdByUserId":"33f2b0df-373f-40ac-9e29-699b7e00c321"}'

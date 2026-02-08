@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/e42aacd4-e03d-4d40-a704-2a972430f046' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA4VDExOjAxOjQ5LjY3ODY3MCIsInVzZXJfaWQiOiI2ZWZlMGQ2YS04N2YxLTQ3MDItOTk1YS0yN2FlNjdkNmU2YjQifQ.dMdCaMZMRxJatVB4A-A-3gC7zP6Hjbhl9k3gj4EWSsQ' \
+  -H 'content-length: 291' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Much young simple behind include choice painting.","maxScore":87,"minScore":11,"description":"Suggest shake wind over senior indeed want bed. Natural international source.\nAmount people hand act letter few. Grow relate training heavy many nor yourself.","estimatedTime":"9 weeks"}'

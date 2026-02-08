@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA4VDExOjAxOjUxLjQzMjI4NSIsInVzZXJfaWQiOiIwMDZiYmNhNy00NDRhLTQ5MDAtOGRjMC0wYTcyNTdhNTk3YTAifQ.tp-_tqGqBoT0M1sv_rCPyPcc0MgDZ-NBShc2unJUAq8' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Eat step true any threat.","maxScore":87,"minScore":19,"description":"Key special pass should.\nGuy not church method establish need mother. New despite cause must indicate range.\nQuestion push others customer concern. So some order miss system clearly.","estimatedTime":"7 weeks","previewFileId":"522171ef-c04a-4c48-acbb-c0ffe0ce6d9f","createdByUserId":"006bbca7-444a-4900-8dc0-0a7257a597a0"}'

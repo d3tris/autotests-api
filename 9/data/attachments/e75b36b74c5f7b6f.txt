@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA4VDExOjAxOjUzLjc0OTY3MSIsInVzZXJfaWQiOiIyODMyMDg5NC0wZmY5LTQxOGUtOWRkZi1jYTcyYzA2MGVkZmYifQ.B3Cp7Pjojms68A5iVv2fJO3zvHenYYRO8fptKxG_YFg' \
+  -H 'content-length: 392' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Low vote clear society able hospital people.","maxScore":79,"minScore":11,"description":"International hold north any plan simply. What clear check amount test few. Apply bar entire early able mission subject ask. Away machine I above option.","estimatedTime":"3 weeks","previewFileId":"e5d595f1-308b-46bf-b3ae-bee00421ad8c","createdByUserId":"28320894-0ff9-418e-9ddf-ca72c060edff"}'

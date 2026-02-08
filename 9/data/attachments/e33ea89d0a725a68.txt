@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA4VDExOjAxOjUwLjI0NDYxNSIsInVzZXJfaWQiOiI0Zjk5NWU4ZS05NjA1LTRlNzctYTgwZS01M2UwNmFlYjJkNWUifQ.dXkZiThwJ8_sdPji3w0IPBjGRq0YCvMm8_0COdSL3Oo' \
+  -H 'content-length: 310' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Official manage nation though pull.","maxScore":98,"minScore":27,"description":"Usually hit remember late view city. Customer former election perform lead hair.","estimatedTime":"3 weeks","previewFileId":"949fbe62-77cf-432b-8880-2434ece9e3e5","createdByUserId":"4f995e8e-9605-4e77-a80e-53e06aeb2d5e"}'

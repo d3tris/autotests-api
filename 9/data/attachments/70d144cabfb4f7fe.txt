@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA4VDExOjAxOjUzLjE5NjMwNiIsInVzZXJfaWQiOiIzMmQ1MDdiZS1hY2RlLTRjYzQtODY0My01MjUyYTlkMTkzMDAifQ.cbsFOiIw3dfoyEq0tyaUcw8bHICjr8G1bRcgDJDi3oc' \
+  -H 'content-length: 355' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Able base address audience majority.","maxScore":87,"minScore":22,"description":"Or catch way entire among white doctor. Good name air very indeed.\nCouple consider ask answer. To bit evening TV situation.","estimatedTime":"2 weeks","previewFileId":"15897296-fe1c-40c0-b93f-32bbc3a3231c","createdByUserId":"32d507be-acde-4cc4-8643-5252a9d19300"}'
